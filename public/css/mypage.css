@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.top-banner {
+  background-color: #000;
+  color: #fff;
+}
+
+.banner-username {
+  padding: 20px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.banner-nickname {
+  display: inline-block;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.defalut-info {
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+.defalut-info span {
+  color: #777;
+}
+
+.category {
+  padding: 20px 0;
+}
+
+.category li {
+  width: 100%;
+  font-size: 0;
+  vertical-align: top;
+  padding: 5px 0;
+}
+
+.category li em {
+  display: inline-block;
+  width: 60%;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.category li span {
+  display: inline-block;
+  width: 20%;
+  font-size: 16px;
+  vertical-align: top;
+  font-weight: 600;
+}
+
+#password {
+  width: 60%;
+  border: 0;
+  outline: none;
+}
+
+.category li input {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 4px;
+}
+
+.images {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+.photo em::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.photo em:hover::before {
+  background-color: #777;
+}
+
+.photo em {
+  line-height: 30px;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+input[type='button'] {
+  transition: background 0.3s, color 0.3s;
+}
+
+input[type='button']:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
