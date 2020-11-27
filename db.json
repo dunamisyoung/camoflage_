@@ -1,0 +1,12 @@
+{
+  "users" : [
+    {
+      "id": "heroyoungboy",
+      "pw": "1234",
+      "name": "테스트",
+      "nickname" : "zi존동찬",
+      "email" : "hero@gmail.com",
+      "phone" : "010-1111-1111"
+    }
+  ]
+}
